@@ -1,0 +1,128 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    margin: 50px 30px 0 30px;
+}
+
+ul {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 15px;
+    color: black;
+    font-family: "Roboto-light";
+    font-weight: bold;
+}
+
+.layer2 {
+    margin: 20px 20px 0 0;
+    display: flex;
+}
+
+.search {
+    margin-right: 30px;
+}
+
+@font-face {
+    font-family: "Roboto-Reguler";
+    src: url("../HTMLCSS/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-light";
+    src: url("../HTMLCSS/Roboto-Light.ttf");
+}
+
+h1 {
+    font-family: "Roboto-Reguler";
+}
+
+ul.breadcrumb li{
+    display: inline;
+    margin-left: 2px;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "|\00a0";
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+div.login a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.breadcrumb {
+    margin-left: -20px;
+    list-style-type: none;
+}
+/* CSS Navbar */
+
+.content {
+    margin: 30px 30px 0 30px;
+    font-family: "Roboto-Reguler";
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    border: 2px solid black;
+}
+
+table th a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+th {
+    padding-left: 20px;
+}
+
+.footers {
+    text-align: center;
+    font-family: "Roboto-Light";
+}
+
+.layer2left table {
+    padding-right: 159px;
+}
+
+.layer2right {
+    text-align: left;
+    margin-right: 50px;
+    padding-bottom: 100px;
+    line-height: 30px;
+}
+
+.brear1 {
+    display: flex;
+}
+
+.brear {
+    display: flex;
+    margin-left: 500px;
+    list-style-type: none;
+}
+
+ul.brear li+li::before {
+    padding: 0 5px 0 5px;
+    color: black;
+    content: "|\00a0";
+    text-decoration: none;
+}
