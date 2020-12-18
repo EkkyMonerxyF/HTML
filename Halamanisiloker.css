@@ -1,0 +1,157 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    margin: 50px 30px 0 30px;
+}
+
+ul {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 15px;
+    color: black;
+    font-family: "Roboto-light";
+    font-weight: bold;
+}
+
+.layer2 {
+    margin: 20px 20px 0 0;
+    display: flex;
+}
+
+.search {
+    margin-right: 30px;
+}
+
+@font-face {
+    font-family: "Roboto-Reguler";
+    src: url("../HTMLCSS/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-light";
+    src: url("../HTMLCSS/Roboto-Light.ttf");
+}
+
+h1 {
+    font-family: "Roboto-Reguler";
+}
+
+ul.breadcrumb li{
+    display: inline;
+    margin-left: 2px;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "|\00a0";
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+div.login a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.breadcrumb {
+    margin-left: -20px;
+    list-style-type: none;
+}
+
+fieldset {
+    font-family: "Roboto-Light";
+    margin: 25px 15px 25px 15px;
+
+}
+
+.kategori {
+    margin-left: 80px;
+    text-align: left;
+}
+
+.dateline {
+    margin-left: 98px;
+    text-align: left;
+}
+
+.contact {
+    margin-left: 112px;
+    text-align: left;
+}
+
+.email {
+    margin-left: 175px;
+    text-align: left;
+}
+
+.deskripsi {
+    margin-left: 75px;
+    text-align: left;
+}
+
+.bidang {
+    margin-left: 122px;
+    text-align: left;
+}
+
+.nama {
+    margin-left: 9px;
+    text-align: left;
+}
+
+.submit {
+    text-align: left;
+    margin: 20px 0 0 290px;
+}
+
+table {
+    border: 2px solid black;
+    margin: 20px 0 0 30px;
+    width: 95.5%;
+}
+
+.kualifikasi {
+    text-align: left;
+}
+
+legend {
+    font-family: "Roboto-Reguler"
+}
+
+.footers {
+    text-align: center;
+    font-family: "Roboto-Light";
+}
+
+.brear {
+    display: flex;
+    list-style-type: none;
+    font-family: "Roboto-Light";
+    margin-left: 80%;
+}
+
+ul.brear li+li::before {
+    padding: 0 5px 0 5px;
+    color: black;
+    content: "|\00a0";
+    text-decoration: none;
+}
+
+table th a:hover {
+    text-decoration: underline;
+    color: black;
+}
