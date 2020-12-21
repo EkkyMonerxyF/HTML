@@ -1,0 +1,121 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    margin: 50px 30px 0 30px;
+}
+
+ul {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 15px;
+    color: black;
+    font-family: "Roboto-light";
+    font-weight: bold;
+}
+
+.layer2 {
+    margin: 20px 20px 0 0;
+    display: flex;
+}
+
+.search {
+    margin-right: 30px;
+}
+
+@font-face {
+    font-family: "Roboto-Reguler";
+    src: url("../HTMLCSS/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-light";
+    src: url("../HTMLCSS/Roboto-Light.ttf");
+}
+
+h1 {
+    font-family: "Roboto-Reguler";
+}
+
+ul.breadcrumb li{
+    display: inline;
+    margin-left: 2px;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "|\00a0";
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+div.login a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.breadcrumb {
+    margin-left: -20px;
+    list-style-type: none;
+}
+
+.heading {
+    border: 2px solid black;
+    margin: 20px 30px 20px 30px;
+    width: 95.5%;
+    font-family: "Roboto-Light";
+}
+
+th ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+tr {
+    border: 2px solid black;
+}
+
+td {
+    border: 2px solid black;
+}
+
+.kelolamitra {
+    margin: 40px 200px 0 0;
+}
+
+.footers {
+    text-align: center;
+    font-family: "Roboto-Light";
+}
+
+.km {
+    font-family: "Roboto-Reguler";
+    list-style-type: none;
+}
+
+table th ul li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+table {
+    border: 2px solid black;
+    margin: 20px 0 0 0;
+    width: 100%;
+    font-family: "Roboto-Light";
+}
