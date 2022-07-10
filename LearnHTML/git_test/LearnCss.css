@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "Sangit";
+    src: url("Sangit.otf");
+}
+
+@font-face {
+    font-family: "MADE Mirage";
+    src: url("MADE\ Mirage\ Regular\ PERSONAL\ USE.otf");
+}
+
+@font-face {
+    font-family: "MADE Mirage BOLD" ;
+    src: url("MADE\ Mirage\ Bold\ PERSONAL\ USE.otf");
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1440px;
+    height: 1024px;
+}
+
+.wrapper {
+    margin: auto;
+    width: 1190px;
+    height: 122px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-icon {
+    display: flex;
+    margin-top: 48px;
+    width: 767px;
+    justify-content: space-between;
+}
+
+.menu {
+    font-family: MADE Mirage;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+}
+
+.left-m {
+    margin-left: 80px;
+}
+
+.menu a {
+    color: black;
+}
+
+#usr {
+    margin-left: 30px;
+}
+
+.logo {
+    margin-top: 30px;
+    font-family: Sangit;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 140%;
+    text-align: center;
+    font-style: normal;
+}
+
+.menu a:hover {
+    border-bottom: 1px solid black;
+}
+
+.main {
+    display: flex;
+    width: 1315px;
+    justify-content: space-between;
+    float: right;
+}
+
+.left-h {
+    margin-top: 138px;
+    font-family: MADE Mirage;
+}
+
+.left-h h1 {
+    font-weight: 500px;
+    font-size: 48px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+#desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    color: black;
+    margin-top: 5px;
+}
+
+.btn-all {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: black;
+    margin-top: 20px;
+    width: 218px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    height: 24px;
+}
+
+.back-gold {
+    height: 528px;
+    width: 749px;
+    background-color: #FCF9F0;
+}
+
+.back-img img {
+    margin: 30px;
+    height: 468px;
+}
+
+#arw {
+    align-items: center;
+    justify-content: center;
+}
+
+.over {
+    display: flex;
+    height: 374px;
+    width: 1440px;
+}
+
+.back-gold2 {
+    height: 374px;
+    width: 691px;
+    background-color: #FCF9F0;
+}
+
+.over-in {
+    display: flex;
+    justify-content: space-between;
+}
+
+.back-gold2 img {
+    height: 314px;
+    width: 631px;
+    padding: 30px;
+}
+
+.caresoul {
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    font-family: MADE Mirage;
+    margin: 172px 317px 171px 318px;
+}
