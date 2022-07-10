@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "Dune Rise";
+    src: url(/Dune_Rise.otf);
+}
+
+.container {
+    height: 937px;
+    width: 1728px;
+    background-color: #fcf8e8;
+    margin: auto;
+    display: grid;
+    grid-template-areas: "daftar-menu discover login"
+        "daftar-menu discover lelang"
+        "artwork discover caresoul btn";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+
+.daftar-menu {
+    background-color: #006e7f;
+    height: 806px;
+    width: 530px;
+    grid-area: daftar-menu;
+}
+
+.artwork {
+    background-color: #030e12;
+    height: 131px;
+    width: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discover {
+    background-color: #f8cb2e;
+    height: 937px;
+    width: 668px;
+    font-family: "Dune Rise";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.gundam img {
+    height: 663px;
+    width: 489px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    position: absolute;
+    left: 617px;
+    top: 301px;
+}
+
+.login {
+    background-color: #EE5007;
+    height: 81px;
+    width: 530px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 22px;
+    line-height: 140%;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    justify-content: center;
+    display: flex;
+} 
+
+.login p {
+    color: white;
+    margin-top: 19px;
+}
+
+.box1 {
+    background-color: white;
+    height: 4px;
+    width: 85px;
+    position: absolute;
+    top: 54px;
+    left: 1421px;
+}
+
+.lelang {
+    background-color: #fcf8e8;
+    width: 530px;
+    height: 725px;
+}
+
+.time {
+    padding: 130px 0px 0px 40px;
+}
+
+.time p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 28px;
+    line-height: 45px;
+    font-weight: 400;
+    color: #030e12;
+}
+
+.time h1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 60px;
+    color: #030e12;
+}
+
+.main-title {
+    margin-top: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 70px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 30px 0 0 40px;
+}
+
+.button a {
+    padding: 18px 72px;
+    color: white;
+    background-color: #EE5007;
+    border: 2px solid #030e12;
+}
+
+.button a:hover {
+    background-color: #fcf8e8;
+    color: #EE5007
+}
+
+.button {
+    padding: 40px 0px 0px 40px;
+}
+
+.caresoul{
+    background-color: #030e12;
+    width: 385px;
+    height: 131px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.next h1 {
+    font-size: 32px;
+}
+
+.next h2 {
+    font-size: 22px;
+    margin-left: 40px;
+    font-weight: 400;
+}
+
+.next {
+    color: white;
+    font-size: 18px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    line-height: 34px;
+}
+
+.btn {
+    background-color: #f8cb2e;
+    height: 131px;
+    width: 145px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.btn img {
+    height: 49.72px;
+    width: 30.29px;
+}
+
+.mixing {
+    display: flex;
+}
+
+.logo {
+    padding-top: 18px;
+    padding-left: 120px;
+    font-size: 22px;
+    line-height: 45px;
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.main-menu ul li,a {
+    list-style-type: none;
+    color: white;
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    line-height: 30px;
+}
+
+.main-menu {
+    margin-top: 100px;
+}
+
+.artworks {
+    margin-right: 60px;
+}
+
+.artworks h1 {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+    line-height: 45px;
+}
+
+.artworks h2 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.creator h1 {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+    line-height: 45px;
+}
+
+.creator h2 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+}
