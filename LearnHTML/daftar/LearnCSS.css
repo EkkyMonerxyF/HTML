@@ -1,0 +1,168 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: #2C3639;
+}
+
+@font-face {
+    font-family: Argentum Sans;
+    src: url("ArgentumSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: Argentum Re;
+    src: url("ArgentumSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: Argentum Li;
+    src: url("ArgentumSans-Light.ttf");
+}
+.container {
+    /*background-color: #8879B0;*/
+    width: 1280px;
+    margin: auto;
+    height: 800px;
+}
+
+#nav_bar {
+    padding: 24px 24px;
+    display: flex;
+    align-items: center;
+    /*background-color: #7D9D9C;*/
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    margin-right: 80px;
+    font-family: "Argentum Sans";
+    line-height: 32px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {
+    list-style-type: none;
+    padding: 0px 50px;
+    color: #CFD2CF;
+}
+
+.menu li a {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Argentum Re";
+    text-decoration: none;
+    color: #CFD2CF;
+}
+
+#form {
+    padding: 0px 24px;
+    margin-top: 100px;
+}
+
+
+.main_head p {
+    font-family: "Argentum Sans";
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    line-height: 24px;
+    color: #F6F6F6;
+    margin-bottom: 16px;
+}
+
+.main_head h1 {
+    font-family: "Argentum Sans";
+    font-size: 44lopx;
+    line-height: 40px;
+    color: white;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.main_head h1 b {
+    color: #11468F;
+}
+
+.main_head .already {
+    color: #F6F6F6;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    font-family: "Argentum Li";
+    line-height: 20px;
+}
+
+.main_head .already a {
+    margin-left: 8px;
+    text-decoration: none;
+    color: #3AB4F2;
+    font-family: "Argentum Re";
+}
+
+.input_form {
+    /*background-color: black;*/
+    margin-top: 40px;
+    width: 390px;
+}
+
+.kolom-pendek {
+    display: flex;
+    position: relative;
+}
+
+.kolom-pendek input {
+    padding: 16px 12px;
+    border-radius: 15px;
+    background-color: #959a9c;
+    font-size: 16px;
+}
+
+.kolom-pendek input:first-of-type {
+    margin-right: 16px;
+}
+
+input {
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 15px;
+    padding: 16px 12px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #959a9c;
+    color: white;
+}
+
+.icon-fl {
+    position: absolute;
+    top: 13px;
+    left: 151px;
+    background-color: #959a9c;
+}
+
+.tombol {
+    margin-top: 40px;
+    /*background-color: white;*/
+    width: 390px;
+}
+
+button {
+    padding: 16px 12px;
+    color: white;
+    width: 187px;
+    border-radius: 40px;
+    font-size: 16px;
+    border: none;
+    background-color: #3AB4F2;
+    cursor: pointer;
+}
+
+button:first-of-type {
+    background-color: #6b7274;
+    margin-right: 12px;
+}
