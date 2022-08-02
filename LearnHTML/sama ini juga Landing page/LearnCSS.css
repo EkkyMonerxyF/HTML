@@ -1,0 +1,206 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: #406661;
+}
+
+@font-face {
+    font-family: Mofijo;
+    src: url("Mofijo.ttf");
+}
+
+.container {
+    width: 100%;
+    background-color: #FCF8E8;
+    position: relative;
+    height: 342px;
+}
+
+.header {
+    width: 90%;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+.logo {
+    font-family: "Mofijo";
+    font-size: 22px;
+    letter-spacing: 4px;
+    line-height: 24px;
+    color: #1B2430;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li a {
+    margin: 0px 40px;
+    font-size: 16px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+.icon {
+    letter-spacing: 28px;
+}
+
+.motto p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: 300;
+    color: #191919;
+    margin: 20px 0px;
+}
+
+.motto h1 {
+    text-align: center;
+    font-size: 90px;
+    font-family: "Mofijo";
+    letter-spacing: 12px;
+    color: #1B2430;
+    margin-bottom: 20px;
+    line-height: 108px;
+}
+
+.motto-gradient h1 {
+    text-align: center;
+    font-size: 90px;
+    letter-spacing: 12px;
+    margin-bottom: 20px;
+    font-family: "Mofijo";
+    background: -webkit-linear-gradient(black 45%, #FCF8E8 45%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 108px;
+}
+
+.foto img {
+    width: 300px;
+    height: 370px;
+    position: absolute;
+    top: 0px;
+    transform: translate(-50%);
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    height: 300px;
+}
+
+.know p a {
+    position: absolute;
+    transform: rotate(-90deg);
+    font-family: 'Zen Maru Gothic', sans-serif;
+    top: 200%;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+    left: 0%;
+}
+
+.header-two {
+    width: 90%;
+    margin: auto;
+}
+
+.prev, .next {
+    font-size: 24px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    line-height: 26px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.prev {
+    transform: translate(50%);
+}
+
+.next {
+    transform: translate(-50%);
+}
+
+.foto4{
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    transform: rotate(3deg);
+    position: absolute;
+    top: 0px;
+}
+
+.foto3 {
+    -webkit-transform: rotate(-4deg);
+    -moz-transform: rotate(-4deg);
+    -o-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+    position: absolute;
+    top: 0px;
+}
+
+.foto2 {
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    -o-transform: rotate(4deg);
+    transform: rotate(4deg);
+    position: absolute;
+    top: 0px;
+}
+
+.foto1 {
+    -webkit-transform: rotate(12deg);
+    -moz-transform: rotate(12deg);
+    -ms-transform: rotate((12deg));
+    -o-transform: rotate(12deg);
+    transform: rotate(12deg);
+    position: absolute;
+    top: 0px;
+    left: 52%;
+}
+
+.balok {
+    width: 52px;
+    height: 1px;
+    background-color: white;
+}
+
+.prev p {
+    letter-spacing: 4px;
+    margin-right: 8px;
+}
+
+.next p {
+    letter-spacing: 4px;
+    margin-left: 8px;
+}
+
+.icon {
+    cursor: pointer;
+}
