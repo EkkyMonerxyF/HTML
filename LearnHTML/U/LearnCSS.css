@@ -1,0 +1,337 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #121212;
+    width: 100%;
+    height: 64px;
+}
+
+.logo p {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    color: #121212;
+    cursor: pointer;
+    margin-left: 24px;
+}
+
+.sedang_diputar {
+    padding: 20px 24px;
+    height: 100%;
+    border-width:  0px 1px;
+    border-color: #121212;
+    border-style: inset;
+    width: 653px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.sedang_diputar p {
+    width: 550px;
+    margin-left: 8px;
+    font-family: 'Armata', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2F3D43;
+}
+
+.progres_bar {
+    height: 4px;
+    width: 651px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.progres_bar .duration {
+    width: 100%;
+    height: 4px;
+    background-color: #F0A500;
+    z-index: 0;
+    position: absolute
+}
+
+.progres_bar .progress {
+    width: 409px;
+    height: 4px;
+    z-index: 1;
+    background-color: #2666CF;
+    position: absolute;
+}
+
+.search p, .login a, nav p {
+    font-family: 'Armata', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2F3D43;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #121212;
+    height: 100%;
+    padding: 20px 24px;
+    cursor: pointer;
+}
+
+nav img {
+    margin-left: 8px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search img {
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.login a {
+    text-decoration: none;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 24px;
+}
+
+.right_header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.category {
+    max-height: 317px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.box {
+    min-width: 432px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 0 1px 1px 0;
+    border-color: #121212;
+    border-style: solid;
+}
+
+.box a,
+.destination a {
+    font-family: 'Armata', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #121212;
+    text-decoration: none;
+}
+
+.destination-content-category {
+    width: 100%;
+    /*
+    background-color: green; */
+    display: flex;
+    padding: 0px 24px;
+}
+
+.destination-content {
+    margin-top: 60px;
+}
+
+.destination a {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.destination {
+    margin-right: 32px;
+}
+
+.slider {
+    height: 1px;
+    width: 100%;
+    background-color: black;
+    margin-top: 4px;
+}
+
+.main-title {
+    width: 100%;
+    /*
+    background-color: red; */
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 40px;
+    overflow: hidden;
+
+}
+
+.podcast2,
+.podcast1,
+.podcast3,
+.podcast4 {
+    /*
+    border: 1px solid black; */
+    height: 100%;
+    width: 610px;
+    padding-left: 24px;
+}
+
+.eps {
+    margin-bottom: 24px;
+    /*
+    background-color: brown; */
+    width: 100%;
+}
+
+.eps:last-child {
+    margin-bottom: 0;
+}
+
+.eps p {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #121212;
+    font-weight: 400;
+    font-family: "Bayon";
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.description p {
+    font-size: 14px;
+    font-family: "Armata";
+    line-height: 20px;
+    font-weight: 400;
+    margin: 0;
+    cursor: default;
+}
+
+.titik {
+    height: 4px;
+    width: 4px;
+    background-color: #100F0F;
+    border-radius: 100%;
+}
+
+.description {
+    display: flex;
+    /*
+    background-color: blue; */
+    align-items: center;
+}
+
+.description img {
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.description p, .titik {
+    margin-right: 8px;
+}
+
+.description .color-p {
+    color: red;
+}
+
+
+.putar-kembali {
+    padding: 20px 24px;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: black;
+    margin-top: 40px;
+    /*
+    background-color: red; */
+    display: grid;
+    height: 167px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 24px 1fr 1fr;
+    grid-gap: 20px;
+}
+
+/*
+.putar-kembali div {
+
+    background-color: blue;
+}
+*/
+
+
+.putar-kembali .arrow-up {
+    grid-area: 1 / 1 / 2 / 4;
+}
+
+.arrow-up img {
+    transform: translate(-50%);
+    margin-left: 50%;
+}
+
+.the-name-podcast1 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.the-name-podcast1 .judul,
+.the-name-podcast2 .judul,
+.the-name-podcast3 .judul,
+.the-name-podcast4 .judul,
+.the-name-podcast5 .judul
+ {
+    font-size: 16px;
+    text-decoration: underline;
+    font-family: 'Armata';
+    line-height: 20px;
+}
+
+.putar-kembali-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 8px;
+    margin-top: 4px;
+    border: 1px solid black;
+    background-color: #06FF00;
+}
+
+.replay {
+    flex: 1;
+    margin-left: 12px;
+}
+
+.replay,
+.time {
+    font-family: 'Armata';
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.the-name-podcast2 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.the-name-podcast3 {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+.the-name-podcast4 {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.the-name-podcast5 {
+    grid-area: 3 / 3 / 4 / 4;
+}
+
