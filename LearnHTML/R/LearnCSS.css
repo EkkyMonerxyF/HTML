@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'GLAMORA';
+    src: url('/Font/Glamora.otf');
+}
+
+header {
+    padding: 12px 100px;
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: 50px auto;
+    grid-template-rows: 48px;
+    border-bottom: 1px solid #E8E9EA;
+    position: relative;
+}
+
+.menu_bar {
+    padding: 12px 0;
+}
+
+.nav_links {
+    text-align: right;
+    padding: 12px 0;
+}
+
+.nav_links li {
+    display: inline-block;
+    list-style: none;
+    
+}
+
+.nav_links li:nth-child(1) {
+    float: left;
+}
+
+.nav_links li:nth-child(2) {
+    margin-right: 100px;
+}
+
+.nav_links li a {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #100f0f;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+}
+
+.nav_links .edit_sale {
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 33.33%);
+}
+
+.logo h1 {
+    font-size: 28px;
+    font-family: 'GLAMORA';
+}
+
+/* Main Article */
+
+main {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-gap: 40px;
+    height: 892px;
+}
+
+.main_title {
+    display: grid;
+    gap: 4px;
+    padding: 24px 200px;
+}
+
+.skin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skin p {
+    font-size: 90px;
+    font-family: 'Judson', serif;
+    letter-spacing: 0.04em;
+    margin: 0 24px;
+    line-height: 108px;
+    
+}
+
+.skin img {
+    width: 180px;
+    height: 76px;
+}
+
+.skin .shop_now {
+    width: 120px;
+    height: 76px;
+}
+
+button {
+    width: 180px;
+    height: 76px;
+    border-radius: 40px;
+    border: none;
+    background-color: #272626;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #100f0f;
+}
+
+/* All kind of Needs */
+
+.needs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-width: 1px 0;
+    border-color: #E8E9EA;
+    border-style: solid;
+    padding: 0 40px;
+}
+
+.all-kinds-of-need {
+    display: flex;
+    align-items: center;
+}
+
+.all-kinds-of-need p {
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    line-height: 24px;
+    margin-left: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #100f0f;
+}
+
+/* Skincare Guide */
+
+.skincare-guide {
+    padding: 0 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 12px;
+}
+
+.gambar img {
+    height: 100%;
+    width: 100%;
+}
+
+.gambar {
+    height: 100%;
+    background-color: red;
+}
