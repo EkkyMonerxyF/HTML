@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Bizmo";
+    src: url("/Bizmo\ Trial-Regular.ttf");
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: spacen between;
+    padding: 32px 100px;
+    background-color: #222831;
+}
+
+.menu {
+    flex: 2;
+    font-size: 14px;
+    font-family: 'Bizmo';
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.menu > a {
+    color: #9c9ea2;
+    text-decoration: none;
+}
+
+.number-phone {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.number-phone > p,
+.btn-phone .btn,
+#next {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Bizmo';
+    color: #9c9ea2;
+}
+
+.btn {
+    margin-left: 8px;
+}
+
+.btn-phone {
+    background: transparent;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn::before {
+    content: "";
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 1.5px;
+    background-color: white;
+    position: absolute;
+    margin-left: 8px;
+
+    transform-origin: left;
+    transition: 300ms linear;
+    transform: scale(0);
+}
+
+.btn:hover::before,
+.btn:focus::before {
+    transform: scale(1)
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 711px;
+    background-color: #FFD369;
+}
+
+.right-bar {
+    border-right: 1px solid #222831;
+    grid-row-start: span 4;
+    padding: 40px 100px;
+    width: 550px;
+}
+
+.top-long-bar {
+    grid-column-start: span 2;
+    border-bottom: 1px solid #222831;
+    display: flex;
+    flex-wrap: wrap;
+    height: 224px;
+}
+
+.bottom-bar {
+    grid-column-start: span 2;
+    grid-row-start: span 3;
+}
+
+#next {
+    text-decoration: none;
+    color: #222831;
+}
+
+.title-right-bar p {
+    font-size: 48px;
+    font-family: 'Expletus Sans', cursive;
+    margin: 32px 0 40px 0;
+}
+
+.description-right-side p,
+.information p {
+    font-size: 12px;
+    line-height: 20px;
+    width: 70%;
+    font-family: 'Bizmo';
+}
+
+.description-right-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-next {
+    height: 24px;
+    outline: none;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.number-slider {
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Bizmo';
+    padding: 40px 20px;
+    line-height: 20px;
+}
+
+.information {
+    width: 50%;
+    padding: 0 20px 20px 20px;
+}
+
+.information h1 {
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Expletus Sans', cursive;
+    width: 70%;
+    margin-bottom: 8px;
+}
+
+.bottom-bar {
+    padding: 20px;
+    width: 890px;
+    height: 487px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-one img {
+    width: 415px;
+    height: 447px;
+    float: left;
+
+}
+
+.image-two img {
+    width: 415px;
+    height: 447px;
+}
+
+.number-bottom-bar {
+    font-size: 140px;
+    position: absolute;
+    font-family: 'Bizmo';
+    right: -30px;
+    bottom: 10px;
+}
